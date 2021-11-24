@@ -1,0 +1,19 @@
+.counters {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.counter {
+  color: rgb(4, 0, 37);
+}
+.counter:not(:last-child) {
+  margin-bottom: 5px;
+}
+.counterBad {
+  margin-bottom: 12px;
+}
+.total,
+.percent {
+  font-weight: 600;
+}
